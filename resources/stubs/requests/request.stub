@@ -1,0 +1,13 @@
+<?php namespace DummyNamespace;
+
+use Edutalk\Base\Http\Requests\Request;
+
+class DummyClass extends Request
+{
+    public function rules()
+    {
+        return [
+
+        ];
+    }
+}

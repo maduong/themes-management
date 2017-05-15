@@ -1,0 +1,5 @@
+@extends('edutalk-theme::front._master')
+
+@section('content')
+
+@endsection

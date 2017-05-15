@@ -1,0 +1,8 @@
+{
+    "alias": "edutalk-themes-management",
+    "name": "Edutalk Themes Management",
+    "author": "Vuong Pham",
+    "description": "Themes management package.",
+    "namespace": "Edutalk\\Base\\ThemesManagement",
+    "autoload": "psr-4"
+}

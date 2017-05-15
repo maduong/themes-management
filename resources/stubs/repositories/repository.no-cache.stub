@@ -1,0 +1,19 @@
+<?php namespace DummyNamespace;
+
+use Edutalk\Base\Repositories\Eloquent\EloquentBaseRepository;
+use DummyNamespace\Contracts\DummyClassContract;
+use Edutalk\Base\Caching\Services\Traits\Cacheable;
+use Edutalk\Base\Caching\Services\Contracts\CacheableContract;
+
+class DummyClass extends EloquentBaseRepository implements DummyClassContract, CacheableContract
+{
+    use Cacheable;
+
+    protected $rules = [
+
+    ];
+
+    protected $editableFields = [
+        '*',
+    ];
+}

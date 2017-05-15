@@ -1,0 +1,18 @@
+<?php namespace DummyNamespace;
+
+use Edutalk\Base\Criterias\AbstractCriteria;
+use Edutalk\Base\Repositories\AbstractBaseRepository;
+use Edutalk\Base\Repositories\Contracts\AbstractRepositoryContract;
+
+class DummyClass extends AbstractCriteria
+{
+     /**
+      * @param \Edutalk\Base\Models\Contracts\BaseModelContract $model
+      * @param AbstractBaseRepository $repository
+      * @return mixed
+      */
+    public function apply($model, AbstractRepositoryContract $repository)
+    {
+        return $model;
+    }
+}
