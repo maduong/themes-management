@@ -3,6 +3,10 @@
     "description": "Edutalk themes-management",
     "license": "MIT",
     "homepage": "http://edutalk.vn",
+    "support": {
+        "issues": "https://github.com/maduong/themes-management/issues",
+        "source": "https://github.com/maduong/themes-management"
+    },
     "authors": [
         {
             "name": "Vuong Pham",
